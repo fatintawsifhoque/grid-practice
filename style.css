@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns:repeat(12, 1fr) ;
+    grid-template-rows: 130px 130px 130px 130px;
+    grid-template-areas: "a a b b b c c c c c d d"
+    "e e b b b c c c c c f f"
+    "g g h i i c c c c c j j"
+    "k k k k k c c c c c l l";
+    gap: 5px 5px;
+    height: 100vh;
+}
+
+.container > div{
+    display: flex;
+    justify-content: center;
+    
+}
+.b1{
+    grid-area: a;
+    background-color: #A22856;
+    color: #FFFFFF;
+    padding-top: 25px;
+}
+.b2{
+    grid-area: b;
+    background-color: #CA319D;
+    color: #FFFFFF;
+    padding-top: 25px;
+}
+.b3{
+    grid-area: c;
+    background-color: #ED6E62;
+    color: #FFFFFF;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 50px; 
+}
+.b4{
+    grid-area: d;
+    background-color: #EFC437;
+    color: #FFFFFF;
+    padding-top: 25px;
+}
+.b5{
+    grid-area: e;
+    background-color: #538C45;
+    color: #FFFFFF;
+    padding-top: 25px;
+}
+.b6{
+    grid-area: f;
+    background-color: #267C87;
+    color: #FFFFFF;
+    padding-top: 25px;
+}
+.b7{
+    grid-area: g;
+    background-color: #799928;
+    color: #FFFFFF;
+    padding-top: 25px;
+}
+.b8{
+    grid-area: h;
+    background-color: #478755;
+    color: #FFFFFF;
+    padding-top: 25px;
+}
+.b9{
+    grid-area: i;
+    background-color: #30C9C2;
+    color: #FFFFFF;
+    padding-top: 25px;
+}
+.b10{
+    grid-area: j;
+    background-color: #31C98F;
+    color: #FFFFFF;
+    padding-top: 25px;
+}
+.b11{
+    grid-area: k;
+    background-color: #544079;
+    color: #FFFFFF;
+    padding-top: 25px;
+}
+.b12{
+    grid-area: l;
+    background-color: #DE212F;
+    color: #FFFFFF;
+    padding-top: 25px;
+}
